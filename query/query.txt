@@ -1,0 +1,1 @@
+SELECT pr.product1_id AS Nama_product_1, pr.product2_id AS Nama_product_2, hr.price AS Harga_Promo FROM product p INNER JOIN promo pr ON p.id = pr.id INNER JOIN harga_promo hr ON pr.id = hr.id;
